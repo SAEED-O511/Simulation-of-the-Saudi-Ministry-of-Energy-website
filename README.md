@@ -83,7 +83,6 @@ Simply open `index.html` in any modern browser (Chrome, Edge, Safari, Firefox).
 
 ## 🌟 Demo
 
-(👉 Add a **GitHub Pages link** or screenshot GIF here when deployed.)
 
 Example deployment:
 
