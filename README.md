@@ -42,7 +42,7 @@ This project reimagines the Ministry’s website with a **mobile-first approach*
 
 ```
 .
-├── new nav.html          # Main entry file
+├── index.html          # Main entry file
 ├── script0.js          
 ├── style.css          # Main entry file
 ├── assets/             # Logo, icons, and flag assets
