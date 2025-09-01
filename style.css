@@ -1,0 +1,141 @@
+/* General */
+body.gray {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.navbar-brand img {
+  height: 45px;
+}
+
+.topBar {
+  background-color: #f3f4f6;
+}
+
+body {
+  font-family: "MoeDGA", sans-serif !important;
+}
+
+.offcanvas-start,
+.offcanvas-end {
+  width: 250px;
+}
+
+@media (min-width: 992px) {
+  .mobile-only {
+    display: none !important;
+  }
+
+  .desktop-only {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: inline !important;
+  }
+}
+
+/* Prevent overlay and high z-index */
+.offcanvas {
+  z-index: 1020 !important;
+  /* lower than default 1045 */
+  box-shadow: none !important;
+  /* remove heavy shadow */
+}
+
+.offcanvas-backdrop {
+  display: none !important;
+  /* no dark overlay */
+}
+
+.custom-offcanvas {
+  top: 160px !important;
+  /* Adjust this based on your navbar height */
+  height: calc(100% - 60px);
+}
+
+.collapse-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+
+.collapse-content.open {
+  max-height: 500px;
+  /* enough space for dropdown */
+  transition: max-height 1s ease;
+}
+
+#mySectionMinistry1.open {
+  display: block;
+}
+
+#mySectionLanguages,
+#mySectionMinistry1,
+#mySectionEnergy1,
+#mySectionMedia1,
+#mySectionDigital1,
+#mySectionSearch {
+  background: #fff;
+  border-radius: 0 0 0.5rem 0.5rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+#mySectionLanguages li button,
+#mySectionMinistry1 li button,
+#mySectionEnergy1 li button,
+#mySectionMedia1 li button,
+#mySectionDigital1 li button,
+#mySectionSearch li button {
+  width: 100%;
+  text-align: left;
+}
+
+.SidebarHover:hover {
+  background-color: #f3f4f6;
+}
+
+.kkk button {
+  background-color: #ffffff;
+}
+
+.icon-box {
+  display: flex;
+  align-items: start;
+  padding: 1rem;
+}
+
+.icon-circle {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid #198754;
+  border-radius: 50%;
+  color: #198754;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.mega-menu ul li {
+  margin-bottom: 6px;
+}
+
+.mega-menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mega-menu ul li a:hover {
+  text-decoration: underline;
+}
